@@ -17,7 +17,7 @@
 - **Dockerfile**: 이미지를 어떻게 만들지 작성하는 파일
 - **Registry**: 이미지를 저장 및 공유하는 곳, ex) Docker Hub
 
-### 주요 코드 (Key Commands)
+### 주요 코드 (Key Code)
 
 - **`docker ps`**: 실행 중인 컨테이너 출력
   - `-a`: 모든 컨테이너 출력
