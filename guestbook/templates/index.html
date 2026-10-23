@@ -30,6 +30,7 @@
 <body>
   <div class="wrap">
     <h1>{{ title }}</h1>
+    <p>나만의 공간에 메세지를 남겨보세요.</p>
     <div class="meta">
       <span class="badge">저장소: {{ storage }}</span>
       <span class="badge">Pod/Host: {{ hostname }}</span>
@@ -38,8 +39,8 @@
 
     <div class="card">
       <form action="/add" method="post">
-        <input name="name" placeholder="이름" maxlength="20">
-        <textarea name="message" placeholder="한마디 남기기" rows="2" maxlength="200"></textarea>
+        <input name="name" placeholder="이름을 입력하세요." maxlength="20">
+        <textarea name="message" placeholder="오늘의 한마디" rows="2" maxlength="200"></textarea>
         <button type="submit">남기기</button>
       </form>
     </div>
@@ -54,9 +55,10 @@
           </div>
         {% endfor %}
       {% else %}
-        <div class="empty">첫 글의 주인공이 되어주세요!</div>
+        <div class="empty">아직 방명록이 비어 있습니다.</div>
       {% endif %}
     </div>
   </div>
 </body>
 </html>
+
