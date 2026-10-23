@@ -28,7 +28,7 @@
 
 ---
 
-### 주요 코드 (Key Commands)
+### 주요 코드 (Key Code)
 
 - **`tar`**
 
